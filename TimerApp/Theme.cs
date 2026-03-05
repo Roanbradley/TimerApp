@@ -8,7 +8,8 @@ namespace TimerApp
 {
     public sealed class Theme
     {
-        
+    
+    //giving out about this to earlier unsure if resolved
     public static Theme Dark = new {AppTheme.Dark, "dark mode"};
     public static Theme Light = new {AppTheme.Light, "Light mode"};
     public static Theme System = new {AppTheme.Unspecified, "default mode"};

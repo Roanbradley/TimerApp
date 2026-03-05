@@ -7,24 +7,15 @@
 
     <ScrollView>
         <VerticalStackLayout
+            Spacing="25"
             Padding="30,0"
-            Spacing="25">
-            <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a hovercraft number nine" />
-
+             Margin="0,50,0,0"
+            VerticalOptions="Start">
+        
             <Label
                 Text="Shadow Boxer"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
-
-            <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
             <Button
                 x:Name="TimerBtn"
@@ -32,6 +23,29 @@
                 Clicked="OnTimerClicked"
                 HorizontalOptions="Fill"
                 Background = "black" />
+
+            
+
+
+            <Label 
+                HorizontalOptions="Center"
+                Style="{DynamicResource LabelStyle}"
+                FontSize="Title"/>
+
+            <HorizontalStackLayout
+                VerticalOptions="Center"
+                HorizontalOptions="Center">
+
+            <Label
+                VerticalOptions="Center"
+                Text="Select Theme: " />
+
+             <Picker
+                VerticalOptions="Center"
+                ItemsSource="{Binding Source={x:Static models:Theme.AvailableThemes}}"
+                ItemDisplayBinding="{Binding DisplayName}"
+                SelectedItem="{Binding Path=Theme, Source={x:Static services:SettingsService.Instance}}"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
