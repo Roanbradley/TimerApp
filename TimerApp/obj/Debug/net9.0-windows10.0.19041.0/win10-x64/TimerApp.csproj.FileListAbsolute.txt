@@ -513,3 +513,4 @@ C:\Users\roanb\Downloads\Timer\TimerApp\TimerApp\obj\Debug\net9.0-windows10.0.19
 C:\Users\roanb\Downloads\Timer\TimerApp\TimerApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\roanb\Downloads\Timer\TimerApp\TimerApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\roanb\Downloads\Timer\TimerApp\TimerApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\roanb\Downloads\Timer\TimerApp\TimerApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\TimerApp.sourcelink.json
